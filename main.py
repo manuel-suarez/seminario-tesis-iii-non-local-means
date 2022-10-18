@@ -74,4 +74,4 @@ print(f'PSNR (slow, using sigma) = {psnr2:0.2f}')
 print(f'PSNR (fast) = {psnr_fast:0.2f}')
 print(f'PSNR (fast, using sigma) = {psnr2_fast:0.2f}')
 
-plt.show()
+plt.savefig("figure1.png")
